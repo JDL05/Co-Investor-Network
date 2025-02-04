@@ -215,7 +215,7 @@ app.layout = dbc.Container([
                         className="text-center mb-2",
                         style={"marginTop": "20px", "fontSize": "1.5em", "color": "#822723"}), width=10),
         dbc.Col(
-            dbc.Button("View on GitHub", href="https://github.com/your-repo", target="_blank",
+            dbc.Button("View on GitHub", href="https://github.com/JDL05/Co-Investor-Network", target="_blank",
                        style={"backgroundColor": "#24292e", "color": "white", "border": "none", "marginRight": "+10px"}),
             width=2, className="d-flex justify-content-end align-items-center"
         )
