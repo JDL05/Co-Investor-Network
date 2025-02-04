@@ -374,5 +374,5 @@ def update_graph(n_clicks, investor_perspective, start_year, end_year, min_degre
 # -----------------------------------------------------------------------------
 # 6. Run the Dash App
 # -----------------------------------------------------------------------------
-if __name__ == '__main__':
-    app.run_server(debug=True)
+if __name__ == "__main__":
+    app.run_server(debug=False, host="0.0.0.0", port=8080)
